@@ -10,6 +10,6 @@ print('Modified dictionary:', my_dict)
 
 my_set = {1.6, 5.5, 4, 'chamomile', 'geranium', True, 'chamomile', 4}
 print('Set: ', my_set)
-my_set.update({3, False})
+my_set.update({3, (1, 5, 7)})
 my_set.discard('chamomile')
 print('Modified set: ', my_set)
